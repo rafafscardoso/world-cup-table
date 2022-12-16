@@ -1,0 +1,49 @@
+## Tabela da copa do mundo
+
+Essa é uma aplicação desenvolvida utilizando NextJs com Typescript tanto no frontend quanto no backend, sendo este utilizando Next API Routes.
+
+## Instalação
+
+Clone o repositório
+
+```bash
+git clone https://github.com/rafafscardoso/world-cup-table.git
+```
+
+Instale as dependências
+
+```bash
+yarn
+```
+
+Crie um arquivo `.env` usando o `.env.example` e altere o endereço do banco de dados `DATABASE_URL`.
+
+Depois de atualizar o `.env` com o novo banco de dados, rode o comando para gerar as tabelas e as migrações
+
+```bash
+yarn prisma migrate dev
+```
+
+Para preencher as tabelas com os jogos, rode o comando
+
+```bash
+yarn seed
+```
+
+Para rodar em ambiente de desenvolvimento, rode o comando
+
+```bash
+yarn dev
+```
+
+Para rodar em produção, primeiro rode o comando
+
+```bash
+yarn build
+```
+
+e depois de completar o `build` rode o comando
+
+```bash
+yarn start
+```
