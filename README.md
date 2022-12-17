@@ -4,7 +4,7 @@ Essa é uma aplicação desenvolvida utilizando NextJs com Typescript tanto no f
 
 Deploy da aplicação:
 
-https://world-cup-table-wb1l.vercel.app/git
+https://world-cup-table-wb1l.vercel.app/
 
 ## Instalação
 
