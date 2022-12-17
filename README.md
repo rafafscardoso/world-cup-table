@@ -2,6 +2,10 @@
 
 Essa é uma aplicação desenvolvida utilizando NextJs com Typescript tanto no frontend quanto no backend, sendo este utilizando Next API Routes.
 
+Deploy da aplicação:
+
+https://world-cup-table-wb1l.vercel.app/git
+
 ## Instalação
 
 Clone o repositório
