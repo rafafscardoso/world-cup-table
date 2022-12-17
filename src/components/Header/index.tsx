@@ -14,10 +14,10 @@ export default function Header() {
             {/* Profile dropdown */}
             {sessionData ? (
               <Menu as="div" className="relative ml-3">
-                <Menu.Button className="flex items-center gap-1 rounded-full bg-slate-200 p-2 text-sm">
+                <Menu.Button className="flex items-center gap-1 rounded-full bg-slate-200 p-1 text-xs sm:p-2 sm:text-sm">
                   {sessionData.user?.name}
                   {sessionData.user?.image ? (
-                    <div className="relative h-8 w-8 overflow-hidden rounded-full">
+                    <div className="relative h-6 w-6 overflow-hidden rounded-full sm:h-8 sm:w-8">
                       <Image
                         className="object-cover"
                         fill

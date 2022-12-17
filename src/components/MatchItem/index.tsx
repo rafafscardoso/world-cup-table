@@ -102,7 +102,7 @@ export default function MatchItem({
   };
 
   return (
-    <div className="relative flex w-full items-center justify-between p-2 sm:py-5 sm:px-6">
+    <div className="relative flex min-h-[68px] w-full items-center justify-between p-2 sm:py-5 sm:px-6">
       <div>
         <p className="text-sm text-dark-900 sm:text-lg">
           {format(new Date(date), "dd MMM yyyy HH'h'mm")}
