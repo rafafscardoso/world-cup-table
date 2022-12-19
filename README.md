@@ -1,6 +1,6 @@
 ## Tabela da copa do mundo
 
-Essa é uma aplicação desenvolvida utilizando NextJs com Typescript tanto no frontend quanto no backend, sendo este utilizando Next API Routes.
+Essa é uma aplicação FullStack Serverless desenvolvida utilizando a stack T3 (NextJs, Typescript, TailwindCSS, Prisma e NextAuth).
 
 Deploy da aplicação:
 
